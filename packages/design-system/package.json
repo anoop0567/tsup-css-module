@@ -1,0 +1,44 @@
+{
+  "name": "@tsup/design-system",
+  "version": "1.0.0",
+  "description": "A React component library with CSS Modules support",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "typescript",
+    "css-modules"
+  ],
+  "exports": {
+    "./components": {
+      "import": "./dist/components/index.mjs",
+      "types": "./dist/components/index.d.mts"
+    },
+    "./styles.css": "./dist/tokens/index.css"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/node": "^22.12.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "esbuild-css-modules-plugin": "^3.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "class-variance-authority": "^0.7.1"
+  }
+}

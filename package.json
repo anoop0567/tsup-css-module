@@ -1,0 +1,12 @@
+{
+  "name": "tsup-style-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=packages/design-system",
+    "dev": "npm run dev --workspace=packages/design-system"
+  }
+}
