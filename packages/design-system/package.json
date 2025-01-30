@@ -23,6 +23,9 @@
     },
     "./styles.css": "./dist/tokens/index.css"
   },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1"
+  },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
@@ -35,10 +38,7 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "esbuild-css-modules-plugin": "^3.1.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
     "tsup": "^8.3.6",
-    "typescript": "^5.7.3",
-    "class-variance-authority": "^0.7.1"
+    "typescript": "^5.7.3"
   }
 }
