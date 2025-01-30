@@ -6,7 +6,9 @@
     "apps/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=packages/design-system & npm run dev --workspace=apps/demo",
+    "dev": "npm run dev:design-system & npm run dev:demo",
+    "dev:design-system": "npm run dev --workspace=packages/design-system",
+    "dev:demo": "npm run dev --workspace=apps/demo",
     "build": "npm run build --workspaces"
   },
   "license": "MIT"
