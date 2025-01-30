@@ -1,12 +1,14 @@
 {
-  "name": "tsup-style-monorepo",
-  "private": true,
+  "name": "tsup-css-module",
+  "private": false,
   "workspaces": [
     "packages/*",
     "apps/*"
   ],
   "scripts": {
-    "build": "npm run build --workspace=packages/design-system",
-    "dev": "npm run dev --workspace=packages/design-system"
-  }
+    "start": "npm run dev --workspace=apps/demo",
+    "dev": "npm run dev --workspace=packages/design-system",
+    "build": "npm run build --workspaces"
+  },
+  "license": "MIT"
 }
