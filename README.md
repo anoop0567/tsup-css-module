@@ -13,29 +13,31 @@ A monorepo showcasing a design system built with TypeScript, React, and CSS Modu
 
 ## Getting Started
 
-1. Install dependencies:
+Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 ## Development
 
 To develop design-system and demo app with hot reload:
-
-1. Start the demo app development server:
-
-```bash
-npm run start
-```
-
-2. Start the design system development server:
 
 ```bash
 npm run dev
 ```
 
 This will start the development server for both the design system and demo application.
+
+## Build
+
+To build the design system and demo app:
+
+```bash
+npm run build
+```
+
+This will build both the design system and demo application.
 
 ## Usage
 
