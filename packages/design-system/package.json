@@ -6,8 +6,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch"
+    "build": "npm run clean && tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist"
   },
   "keywords": [
     "react",
