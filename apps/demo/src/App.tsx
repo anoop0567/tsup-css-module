@@ -1,4 +1,4 @@
-import { Badge, Button } from "@tsup/design-system/components";
+import { Button, Badge } from "@tsup/design-system/components";
 
 import "@tsup/design-system/styles.css";
 

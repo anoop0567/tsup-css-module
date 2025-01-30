@@ -20,5 +20,5 @@
     "target": "es6"
   },
   "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "exclude": ["dist", "node_modules"]
 }
