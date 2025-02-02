@@ -39,6 +39,8 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "esbuild-css-modules-plugin": "^3.1.4",
+    "postcss": "^8.5.1",
+    "postcss-modules": "^6.0.1",
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
   }

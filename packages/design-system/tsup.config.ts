@@ -9,5 +9,5 @@ export default defineConfig({
     ".css": "copy",
   },
   splitting: false,
-  external: ["react", "react-dom", "class-variance-authority"],
+  external: ["react", "react-dom"],
 });
